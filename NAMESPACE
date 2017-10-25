@@ -1,0 +1,3 @@
+useDynLib(iSKAT, .registration = TRUE)
+export(iSKAT, iSKAT.SSD.OneSet, iSKAT.SSD.OneSet_SetIndex, iSKAT.SSD.All)
+export(GESAT, GESAT.SSD.OneSet, GESAT.SSD.OneSet_SetIndex, GESAT.SSD.All)

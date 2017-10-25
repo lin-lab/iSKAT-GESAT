@@ -1,0 +1,12 @@
+Package: iSKAT
+Version: 1.2
+Date: 2015-10-14
+Title: interaction Sequence/SNP-set Kernel Association Test (iSKAT) /
+        Gene-Environment Set Association Test (GESAT)
+Author: Xinyi (Cindy) Lin <xinyilin@mail.harvard.edu>, Shawn Lee <phila78@gmail.com>
+Maintainer: Xinyi (Cindy) Lin <xinyilin@mail.harvard.edu>, Shawn Lee
+        <phila78@gmail.com>
+Depends: SKAT, penalized
+Description: Test for Interactions Between a Genetic Marker Set and Environment. Please also install SKAT (last compatibility version check V0.78) if you want to use SSD related functions. Prior versions have major bugs, please do not use versions <0.3. Versions 1.0 onwards implements both GESAT and iSKAT. Note functions name change from versions 1.0 onwards. In versions <1.0, iSKAT() function implements GESAT (Lin et al., Biostatistics 2013). In versions 1.0 onwards, iSKAT() function implements the optimal test (Lin et al., Biometrics, in press) while GESAT() function implements GESAT (Lin et al., Biostatistics 2013). For versions <1.2, if is_check_genotype==FALSE and is_dosage== FALSE, please ensure that Z has no missigness (versions 1.2 onwards will give an error message, but earlier version would not).
+License: GPL (version 2 or later).
+Packaged: 2015-10-14 07:22:57 UTC; xinyilin
